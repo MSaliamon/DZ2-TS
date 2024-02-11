@@ -7,11 +7,13 @@
     "start": "webpack serve",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --watch",
+    "dev": "webpack --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Vitaliy Zhyrytskyy",
   "license": "ISC",
+  "homepage": "https://github.com/MSaliamon/DZ2-TS#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
